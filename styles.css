@@ -128,10 +128,16 @@ table.anime_item img{
 
 /*Historical anime*/
 [class*=list] table{
+    margin-right: 100px;
+    margin-left: 100px;
     border-collapse: collapse;
-    margin: 0 auto;
     text-align: center;
+    width: 100%;
     max-width: 1366px;
+}
+
+[class*=list] table tbody{
+    width: 100%;
 }
 
 [class*=list] table th{
