@@ -37,11 +37,12 @@ body {background-color:palegoldenrod;}
 
 /*Index page*/
 /*index main*/
+.index-main img{
+    max-height: 500px;
+}
 .index-main{
-    display:grid;
-    grid-template-columns: 30% 70%;
-    grid-template-rows:700px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
     margin: 100px;
     column-gap: 100px;
     max-height: 700px;
@@ -61,7 +62,7 @@ table.anime_item img{
     margin-left: 100px;
     margin-right: 100px;
     column-gap: 100px;
-    align-content: center;
+    max-width: 1366px;
 }
 .seasonal—main ul.jumpers{
     display: flex;
@@ -127,13 +128,17 @@ table.anime_item img{
 
 
 /*Historical anime*/
+.historical—main div.recommendation{
+    max-width: 1366px;
+}
+
 [class*=list] table{
-    margin-right: 100px;
     margin-left: 100px;
+    margin-right: 100px;
     border-collapse: collapse;
     text-align: center;
-    width: 100%;
     max-width: 1366px;
+    width: 100%;
 }
 
 [class*=list] table tbody{
